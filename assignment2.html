@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFOH2009 - Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://www.ieabroad.com/wp-content/uploads/TUD.png" alt="TU Dublin Logo">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b2/Nanjing_University_of_Technology_logo.png" alt="Nanjing Tech University Logo">
+        <h1>INFOH2009 - INFORMATION TECHNOLOGY - Assignment 1</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="assignment1.html">Assignment 1</a></li>
+            <li><a href="assignment2.html">Assignment 2</a></li>
+            <li><a href="assignment3.html">Assignment 3</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Maze Image</h2>
+            <img src="https://www.mazegenerator.net/ImageGenerator.ashx?Tag=20250411030654&MazeType=1&Solution=0.png" alt="Maze Image">
+        </section>
+        <section>
+            <h2>Pseudocode</h2>
+            <p id="pseudocode">
+                mate = [
+                [0,1,0,0,0],
+                [0,1,0,1,0],
+                [0,0,0,0,0],
+                [0,1,1,1,0],
+                [0,0,0,1,0]
+                ]
+                rows = len(mate)
+                cols = len(mate[0])
+                directions = [(0,1),(1,0),(0,-1),(-1,0)]
+                visited = [[False (cols)] for _ in range(rows)]
+                path = []
+                def dfs(x, y):
+    if x == rows - 1 and y == cols - 1:
+        path.append((x, y))
+        return True
+    visited[x][y] = True
+    for dx, dy in directions:
+        new_x, new_y = x + dx, y + dy
+        if 0 <= new_x < rows and 0 <= new_y < cols and not visited[new_x][new_y] and mate[new_x][new_y] == 0:
+            if dfs(new_x, new_y):
+                path.append((x, y))
+                return True
+    return False
+
+
+if dfs(0, 0):
+    path.reverse()
+    print("find the path:", path)
+else:
+    print("cannot find the path")
+            
+            </p>
+        </section>
+        <section>
+            <h2>Reflection</h2>
+            <p>
+                This road is not very complicated.It is of medium difficulty.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
+
