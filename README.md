@@ -1,41 +1,13 @@
-# GOLDGIRLS
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFOH2009 - INFORMATION TECHNOLOGY</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <img src="https://www.ieabroad.com/wp-content/uploads/TUD.png" alt="TU Dublin Logo">
-        <img src="https://upload.wikimedia.org/wikipedia/en/b/b2/Nanjing_University_of_Technology_logo.png" alt="Nanjing Tech University Logo">
+# Group Information
 
-        <h1>INFOH2009 - INFORMATION TECHNOLOGY</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="assignment1.html">Assignment 1</a></li>
-            <li><a href="assignment2.html">Assignment 2</a></li>
-            <li><a href="assignment3.html">Assignment 3</a></li>
+### Member 1: Qv Jiaxin
+Student Name: Qv Jiaxin  
+Student Number: x00218118
 
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Group Information</h2>
-            <h3>Member 1</h3>
-                <p><strong>Student name:</strong> [Qv Jiaxin]</p>
-                <p><strong>Student Number:</strong> [x00218118]</p>
-            <h3>Member 2</h3>    
-                <p><strong>Student name:</strong> [Tian Jing]</p>
-                <p><strong>Student Number:</strong> [x00218123]</p>
-            <h3>Member 3</h3>
-                <p><strong>Student name:</strong> [Xu Jingyi]</p>
-            <p><strong>Student Number:</strong> [x00218127]</p>
-        </section>
-    </main>
-</body>
-</html>
+### Member 2: Tian Jing
+Student Name: Tian Jing  
+Student Number: x00218123
+
+### Member 3: Xu Jingyi
+Student Name: Xu Jingyi  
+Student Number: x00218127
